@@ -98,3 +98,18 @@ h1, h2, h3, h4, h5, h6 {
   color: #777;
   margin-right: .5rem;
 }
+
+/* Showcase */
+#showcase {
+  color: #fff;
+  background: #333;
+  padding: 2rem;
+  position: relative;
+}
+
+#showcase::before {
+  content: '';
+  background: url()
+
+}
+}
