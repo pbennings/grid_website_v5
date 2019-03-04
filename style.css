@@ -51,6 +51,20 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
 }
 
+.category {
+  display: inline-block;
+  color: #fff;
+  font-size: 0.55rem;
+  text-transform: uppercase;
+  padding: 0.4rem 0.6rem;
+  border-radius: 15px;
+  margin-bottom: 0.5rem;
+}
+
+.category-content {background: var(--sports-color) };
+.category-ent {background: var(--sports-color) };
+.category-tech {background: var(--sports-color)};
+
 /* Navigation */
 #main-nav {
   background: #fff;
@@ -109,7 +123,23 @@ h1, h2, h3, h4, h5, h6 {
 
 #showcase::before {
   content: '';
-  background: url()
-
+  background: url('img/20190223-CP2A3430-2.jpg') no-repeat center center/cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
 }
+
+#showcase .showcase-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+#showcase .showcase-content {
+  z-index: 1;
 }
