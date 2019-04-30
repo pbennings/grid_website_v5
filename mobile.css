@@ -1,4 +1,9 @@
 /* Navigation */
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 #main-nav .social {
   display: block;
 }
